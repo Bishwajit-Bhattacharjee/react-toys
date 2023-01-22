@@ -1,0 +1,22 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "jest": true
+    },
+    "extends": [
+        "airbnb",
+        "plugin:react/jsx-runtime",
+        "plugin:prettier/recommended"
+    ],
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "import"
+    ],
+    "rules": {
+        "react/react-in-jsx-scope": 0,
+        "react/jsx-filename-extension": 0,
+        "react/jsx-fragment": 0
+    }
+}
