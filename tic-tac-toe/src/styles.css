@@ -71,6 +71,21 @@ body {
   width: 34px;
 }
 
+.square-winning {
+  background: red;
+  /* border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px; */
+}
+
 .board-row:after {
   clear: both;
   content: '';
@@ -87,4 +102,19 @@ body {
 
 .game-info {
   margin-left: 20px;
+}
+
+.toggle {
+  background-color: grey; /* Green */
+  border: 2px solid #000000; /* 2px solid black border */
+  color: black;
+  padding: 3px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 6px;
+  width:45px;
+  height:15px;
+  margin: 2px 5px 5px 2px;
+  cursor: pointer;
 }
